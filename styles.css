@@ -1,0 +1,187 @@
+@font-face{
+    font-family: Inter;
+    src:url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container{
+    background-color:  hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  clamp( 250px , 18%, 259.2px );;
+    margin: auto;
+    padding:1.875rem;
+    border-radius:0.625rem;
+}
+
+
+.attribution{
+    position: absolute;
+    align-self: flex-end;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 30%;
+
+}
+
+/* fuente */
+h3{
+    color: hsl(0, 0%, 100%);
+    margin: 15px 0 5px 0;
+    font-weight: 600;
+    font-size: clamp(0.857rem, 0.569rem + 0.558vw, 1.143rem) ;
+    text-align: center;
+  
+
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    color:  hsl(75, 94%, 57%);
+    font-size: clamp(0.5rem, 0.569rem + 0.558vw, 0.6rem);
+    font-weight: 600;
+    display: block;
+    line-height: 2;
+    text-align: center;
+
+}
+
+p{
+    font-size: clamp(0.5rem, 0.6rem + 0.084vw, 0.6rem);
+    color: azure;
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+
+.botones{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: clamp(0.5rem, 0.6rem + 0.084vw, 0.6rem);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(0, 0%, 20%) ;
+    border: hsl(0, 0%, 20%) ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Inter;
+}
+
+.container ul{
+    width: 100%;
+
+}
+
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
+.attribution{
+    color: aliceblue;
+}
+
+
+
+@media screen and (max-width:722px){
+    
+.container{
+    background-color:  hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding:1.875rem;
+    border-radius:0.625rem;
+}
+
+
+h3{
+    color: hsl(0, 0%, 100%);
+    margin: 15px 0 5px 0;
+    font-weight: 600;
+    font-size: clamp(0.75rem, -3.6136rem + 21.8182vw, 1.5rem);
+    text-align: center;
+  
+
+}
+
+
+
+span{
+    color:  hsl(75, 94%, 57%);
+    font-size: clamp(0.75rem, -0.1227rem + 4.3636vw, 0.9rem);
+    font-weight: 600;
+    display: block;
+    line-height: 1.8; 
+    text-align: center;
+
+}
+
+p{
+    font-size: clamp(0.75rem, -0.1227rem + 4.3636vw, 0.9rem);
+    color: azure;
+    margin: 15px 0 15px 0;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-transform: ellipsis;
+}
+
+.botones{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: clamp(0.75rem, -0.1227rem + 4.3636vw, 0.9rem);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(0, 0%, 20%) ;
+    border: hsl(0, 0%, 20%) ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Inter;
+}
+
+.container ul{
+    width: 100%;
+
+}
+
+.attribution{
+    font-size: clamp(0.75rem, -0.1227rem + 4.3636vw, 0.9rem);
+
+}
+
+
+}
+
